@@ -85,6 +85,7 @@ nav ul{
     width: 580px;
     height: 670px;
   }
+
   /* background images */
   .header-img{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -92,6 +93,8 @@ nav ul{
     background-repeat: no-repeat;
     background-color: #FFF8F3;
   }
+
+
   /* about me */
   main{
     max-width: 1140px;
@@ -129,4 +132,26 @@ nav ul{
   }
   .main-color{
     background-color: white;
+    border: 1px solid;
+  }
+  /* what do section */
+  .skills{
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills-item{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    padding: 100px 33px 80px 30px;
+    margin-bottom: 150px;
+  }
+  .skill-greet{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .skill-margin{
+    margin-top: 0;
   }
