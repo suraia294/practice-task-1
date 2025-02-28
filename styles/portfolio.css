@@ -90,4 +90,43 @@ nav ul{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-position: top left,bottom right;
     background-repeat: no-repeat;
+    background-color: #FFF8F3;
+  }
+  /* about me */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .about{
+    background-color:#FFF8F3;
+    border-radius: 30px;
+    padding: 130px 160px;
+    margin-top:150px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .about-title{
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .about-essay{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+  }
+  .about-item{
+    font-size: 20px;
+    color: #757575;
+  }
+  .about-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-color{
+    background-color: white;
   }
