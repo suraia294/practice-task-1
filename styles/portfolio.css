@@ -199,3 +199,32 @@ nav ul{
   margin-top: 50px;
   margin-bottom: 50px;
  }
+ /* footer */
+ footer{
+  display: flex;
+  gap:100px;
+  background-color: #FFF8F3;
+  padding: 80px 200px 80px 150px;
+ }
+ .footer-column{
+  width: 50%;
+ }
+ .footer-title-1{
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+ }
+ .footer-describtion{
+  font-size: 16px;
+  color:#474747
+ }
+ footer input[type="text"] , footer input[type="email"], footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 24px;
+  border: none;
+ }
