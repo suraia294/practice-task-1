@@ -146,6 +146,7 @@ nav ul{
     width: 200px;
     padding: 100px 33px 80px 30px;
     margin-bottom: 150px;
+    margin-top: 10px;
   }
   .skill-greet{
     text-align: center;
@@ -155,3 +156,46 @@ nav ul{
   .skill-margin{
     margin-top: 0;
   }
+  /* resume */
+  
+  .resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #181818;
+  }
+ .resume-container{
+  display: flex;
+  gap: 25px;
+  text-align: left;
+ }
+ .resume-column-title{
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+ }
+ .experience-title{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+ }
+ .experience-sub-title{
+  font-weight: 600px;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
+ }
+ .experience-describtion{
+  font-size: 16px;
+  color: #757575;
+ }
+ .resume hr{
+  margin: 30px 5px;
+  color: #D1D1D1;
+ }
+ .cv-btn{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
